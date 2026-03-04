@@ -1,0 +1,152 @@
+/******** GOOGLE FONT **********/
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@100..1000&display=swap");
+
+/******** GLOBAL **********/
+
+body {
+    font-family: "DM Sans", sans-serif;
+    color: #061123;
+    font-weight: 500;
+}
+
+a {
+    text-decoration: none;
+    color: $primary-black;
+    &::hover {
+        color: $primary-color;
+    }
+}
+
+.primary-text {
+    color: $primary-color;
+}
+
+.secondary-text {
+    color: $secondary-color;
+}
+
+ul {
+    padding-left: 0;
+    li {
+        list-style: none;
+    }
+}
+
+/******** TOP BAR **********/
+header .bg-dark {
+    background-color: #061123 !important;
+    font-size: 14px;
+}
+
+/******** NAVBAR **********/
+.navbar {
+    background-color: #ffffff !important;
+}
+
+/* LOGO */
+.logo-img {
+    height: 38px;
+    width: auto;
+}
+
+.brand-text {
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: #061123;
+}
+
+/******** NAV LINKS **********/
+.navbar .nav-link {
+    color: #061123;
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding: 0.5em;
+    display: flex;
+    align-items: center;
+    transition: color 0.25s ease;
+}
+
+/* HOVER + FOCUS */
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #43c3d1;
+}
+
+/* ACTIVE */
+.navbar .nav-link.active {
+    color: #43c3d1;
+}
+
+/******** ICONS **********/
+.nav-icons {
+    gap: 0.25rem;
+}
+
+.icon-link svg {
+    transition:
+        transform 0.2s ease,
+        color 0.2s ease;
+}
+
+.icon-link:hover svg {
+    transform: scale(1.1);
+    color: #43c3d1;
+}
+
+.section-1 .swiper {
+    width: 100%;
+    height: 550px;
+}
+
+.section-1 .swiper-slide {
+    height: 550px;
+}
+
+.section-1 .swiper-slide img.content {
+    width: 100%;
+    height: 550px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+.section-2 .product-card {
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+.section-2 .product-card img {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+    object-position: top center;
+    display: block;
+}
+
+.section-2 .product-card img:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease;
+}
+
+footer {
+    background-color: #2f4858;
+}
+
+footer h3 {
+    font-size: 1.5em;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+}
+
+footer ul li a {
+    font-size: 1.2em;
+    color: #fff;
+}
+
+footer .spotlight {
+     border-top: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
