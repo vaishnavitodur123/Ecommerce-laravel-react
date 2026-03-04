@@ -20,7 +20,7 @@ const LatestProducts = () => {
           <h2>New Arrivals</h2>
 
           <div className="row mt-4 gy-4">
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg1}
@@ -42,7 +42,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg2}
@@ -64,7 +64,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg3}
@@ -86,7 +86,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg4}
@@ -108,7 +108,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg5}
@@ -130,7 +130,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg6}
@@ -152,7 +152,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg7}
@@ -174,7 +174,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg8}
@@ -196,7 +196,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg9}
@@ -218,7 +218,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg10}
@@ -240,7 +240,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-            <div className="col-md-3">
+            <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg11}
@@ -262,7 +262,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
-             <div className="col-md-3">
+             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
                   src={ProductImg12}
