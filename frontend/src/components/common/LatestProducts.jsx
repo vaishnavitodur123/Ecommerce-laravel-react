@@ -15,7 +15,7 @@ import ProductImg7 from "../../assets/image/Mens/seven.jpg"; // adjust path
 const LatestProducts = () => {
   return (
     <>
-      <section className="section-2 py-5">
+      <section className="section-2 pt-5">
         <div className="container">
           <h2>New Arrivals</h2>
 
@@ -42,6 +42,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -64,6 +66,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -86,6 +90,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -108,6 +114,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -130,6 +137,7 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -152,6 +160,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -174,6 +184,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -218,6 +230,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -240,6 +254,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+
             <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img
@@ -262,6 +278,8 @@ const LatestProducts = () => {
                 </div>
               </div>
             </div>
+
+            
              <div className="col-md-3 col-6">
               <div className="product-card border-0 shadow">
                 <img

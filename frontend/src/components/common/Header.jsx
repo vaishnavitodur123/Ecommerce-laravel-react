@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../../assets/image/logo.png";
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return (
@@ -13,12 +14,12 @@ const Header = () => {
             <nav className='navbar navbar-expand-lg bg-body-tertiary'>
                 <div className='container'>
                     {/* LOGO */}
-                    <a
+                    <Link
                         className='navbar-brand d-flex align-items-center'
-                        href='#'
+                        to='/'
                     >
                         <img src={logo} alt='Pure Wear' className='logo-img' />
-                    </a>
+                    </Link>
 
                     {/* RIGHT SIDE (ONE FLEX GROUP) */}
                     <div className='collapse navbar-collapse'>
