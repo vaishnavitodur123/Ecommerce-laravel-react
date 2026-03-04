@@ -1,9 +1,9 @@
-import LatestProducts from "./LatestProducts";
+import LatestProducts from "./common/LatestProducts";
 import "swiper/css";
 import "swiper/css/navigation";
-import FeaturedProduct from "./FeaturedProduct";
-import Hero from "./Hero";
-import Layout from "./Layout";
+import FeaturedProduct from "./common/FeaturedProduct";
+import Hero from "./common/Hero";
+import Layout from "./common/Layout";
 
 function Home() {
     return (

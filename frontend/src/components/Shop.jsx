@@ -1,17 +1,21 @@
 import React from "react";
-import Layout from "./Layout";
-import ProductImg1 from "../../assets/image/Mens/fivee.jpg";
-import ProductImg2 from "../../assets/image/Mens/two.jpg"; // adjust path
-import ProductImg4 from "../../assets/image/Mens/four.jpg"; // adjust path
-import ProductImg10 from "../../assets/image/Mens/ten.jpg"; // adjust path
-import ProductImg11 from "../../assets/image/Mens/eleven.jpg"; // adjust path
-import ProductImg12 from "../../assets/image/Mens/twelve.jpg"; // adjust path
-import ProductImg7 from "../../assets/image/Mens/seven.jpg"; // adjust path
+import Layout from "./common/Layout";
+import ProductImg1 from "../assets/image/Mens/fivee.jpg";
+import ProductImg2 from "../assets/image/Mens/two.jpg"; // adjust path
+import ProductImg4 from "../assets/image/Mens/four.jpg"; // adjust path
+import ProductImg10 from "../assets/image/Mens/ten.jpg"; // adjust path
+import ProductImg11 from "../assets/image/Mens/eleven.jpg"; // adjust path
+import ProductImg12 from "../assets/image/Mens/twelve.jpg"; // adjust path
+import ProductImg7 from "../assets/image/Mens/seven.jpg"; // adjust path
 
 function Shop() {
     return (
         <Layout>
-            <nav aria-label='breadcrumb'>
+           
+
+            <div className='container'>
+
+                 <nav aria-label='breadcrumb'>
                 <ol className='breadcrumb p-4'>
                     <li className='breadcrumb-item'>
                         <a href='/'>Home</a>
@@ -19,8 +23,6 @@ function Shop() {
                     <li className='breadcrumb-item active'>Shop</li>
                 </ol>
             </nav>
-
-            <div className='container'>
                 <div className='row'>
                     <div className='col-md-3'>
                         <div className='card shadow border-0 mb-4'>
