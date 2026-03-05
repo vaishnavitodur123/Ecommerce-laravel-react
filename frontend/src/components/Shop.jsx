@@ -7,12 +7,11 @@ import ProductImg10 from "../assets/image/Mens/ten.jpg"; // adjust path
 import ProductImg11 from "../assets/image/Mens/eleven.jpg"; // adjust path
 import ProductImg12 from "../assets/image/Mens/twelve.jpg"; // adjust path
 import ProductImg7 from "../assets/image/Mens/seven.jpg"; // adjust path
+import { Link } from "react-router-dom";
 
 function Shop() {
     return (
         <Layout>
-           
-
             <div className='container'>
 
                  <nav aria-label='breadcrumb'>
@@ -89,12 +88,12 @@ function Shop() {
                                     />
                                 </div>
                                 <div className='card-body mt-2'>
-                                    <a
-                                        href='#'
+                                    <Link
+                                        to='/product'
                                         className='text-black text-decoration-none'
                                     >
                                         Red Check Shirt for Men
-                                    </a>
+                                    </Link>
                                     <div className='cost mt-1'>
                                         $49
                                         <span className='text-decoration-line-through text-secondary ms-2'>
